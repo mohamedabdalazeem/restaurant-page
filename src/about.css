@@ -1,0 +1,31 @@
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    opacity: 0; 
+    transform: translateX(-100%); 
+    animation: slideLeft 1.5s ease forwards; 
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-self: center;
+}
+
+.about-content > img {
+    width: 350px;
+    align-self: center;
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(+100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

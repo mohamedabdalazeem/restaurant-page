@@ -1,0 +1,96 @@
+{
+    "menu": [
+        {
+            "category": "Coffee",
+            "items": [
+                {
+                    "name": "Espresso",
+                    "description": "Rich and bold shot of finely brewed coffee.",
+                    "price": 3.00,
+                    "img": "https://www.thespruceeats.com/thmb/HJrjMfXdLGHbgMhnM0fMkDx9XPQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-espresso-765702-hero-03_cropped-ffbc0c7cf45a46ff846843040c8f370c.jpg"
+                },
+                {
+                    "name": "Cappuccino",
+                    "description": "Creamy blend of espresso, steamed milk, and foam.",
+                    "price": 4.50,
+                    "img": "https://merriam-webster.com/assets/mw/images/article/art-wap-landing-mp-lg/cappuccino-2029-e80b7c6d318c7862df2c4c8623a11f99@1x.jpg"
+                },
+                {
+                    "name": "Latte",
+                    "description": "Smooth espresso with a generous amount of steamed milk.",
+                    "price": 4.75,
+                    "img": "https://sprudge.com/wp-content/uploads/2016/04/Sprudge-ObjetoEncontrado-JulianaGanan-Sprudge-ObjetoEncontrado-JulianaGanan-BSB_Coffee_Shops_Guide_objeto_latte_art_Lucas_Hamu_01.jpg"
+                }
+            ]
+        },
+        {
+            "category": "Pastries",
+            "items": [
+                {
+                    "name": "Croissant",
+                    "description": "Flaky, buttery pastry, perfect for a morning snack.",
+                    "price": 2.50,
+                    "img": "https://sarahsvegankitchen.com/wp-content/uploads/2024/05/Vegan-Croissants-1.jpg"
+                },
+                {
+                    "name": "Blueberry Muffin",
+                    "description": "Soft muffin filled with sweet, juicy blueberries.",
+                    "price": 3.25,
+                    "img": "https://bakingwithbutter.com/wp-content/uploads/2022/08/6-blueberry-muffins-1-720x720.jpg"
+                },
+                {
+                    "name": "Cinnamon Roll",
+                    "description": "Warm, gooey cinnamon roll topped with icing.",
+                    "price": 3.75,
+                    "img": "https://cookingwithkarli.com/wp-content/uploads/2024/01/cinnamon-roll-recipe.jpg"
+                }
+            ]
+        },
+        {
+            "category": "Tea",
+            "items": [
+                {
+                    "name": "Green Tea",
+                    "description": "Refreshing and healthy tea with a hint of earthiness.",
+                    "price": 2.75,
+                    "img": "https://images.squarespace-cdn.com/content/v1/54e730d4e4b0bc2e9a8f31d0/1528278433321-0S0FTSBERLAMKUEMEZNW/glass+mugs+of+green+tea.jpg"
+                },
+                {
+                    "name": "Chai Latte",
+                    "description": "Spiced tea blended with milk for a warm and cozy drink.",
+                    "price": 4.00,
+                    "img": "https://www.allrecipes.com/thmb/Pa9Fumfnlk8qU-weROSvTrR9JXA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8102028-3f0aa81a74514adfb1389b2f4e53e1e9.jpg"
+                },
+                {
+                    "name": "Earl Grey",
+                    "description": "Aromatic black tea with bergamot for a citrusy flavor.",
+                    "price": 3.00,
+                    "img": "https://shottbeverages.com/wp-content/uploads/2020/07/Earl_Grey_Tea_Infusion.jpg"
+                }
+            ]
+        },
+        {
+            "category": "Sandwiches",
+            "items": [
+                {
+                    "name": "Turkey Club",
+                    "description": "Layers of turkey, bacon, lettuce, and tomato on toasted bread.",
+                    "price": 6.50,
+                    "img": "https://www.simplyrecipes.com/thmb/dREeaUcUQyMHc9_Iy8-7vr-PqqE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2020__04__Turkey-Club-LEAD-3-48a8d4f44b35481390f7963f84dce3ad.jpg"
+                },
+                {
+                    "name": "Veggie Panini",
+                    "description": "Grilled panini filled with roasted vegetables and pesto.",
+                    "price": 6.00,
+                    "img": "https://www.theblondechef.com/wp-content/uploads/2014/09/IMG_1664-720x720.jpg"
+                },
+                {
+                    "name": "Grilled Cheese",
+                    "description": "Classic grilled sandwich with melted cheddar cheese.",
+                    "price": 4.50,
+                    "img": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/grilled-cheese.jpg"
+                }
+            ]
+        }
+    ]
+}

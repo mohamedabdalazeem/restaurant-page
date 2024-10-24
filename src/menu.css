@@ -1,0 +1,75 @@
+.menu {
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    opacity: 0; 
+    transform: translateY(-100%); 
+    animation: slideDown 2.5s ease forwards; 
+}
+
+.menu>h2 {
+    text-align: center;
+    font-size: 30px;
+    background-color: #E6B655;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+    padding: 20px 30px;
+    border: 2px solid #8C2D18;
+    border-radius: 10px;
+    background-color: #8AA78B;
+}
+
+.card>img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid #FF6F59;
+    object-fit: cover;
+}
+
+.card>h3 {
+    font-size: 22px;
+    font-family: 'cafe';
+    letter-spacing: 2px;
+}
+
+.price {
+    align-self: end;
+    padding: 10px 20px;
+    background-color: #FF6F59;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: fit-content;
+    color: #F2E5D7;
+}
+
+.price::after {
+    content: '$';
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

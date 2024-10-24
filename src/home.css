@@ -1,0 +1,32 @@
+.home-content{
+    padding: 130px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 190px;
+    position: relative;
+    opacity: 0; 
+    transform: translateX(-100%); 
+    animation: slideRight 1.5s ease forwards; 
+}
+
+.home-img{
+    width: 400px;
+    border-radius: 100%;
+}
+
+p{
+    font-size: 20px;
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
