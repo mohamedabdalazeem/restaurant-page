@@ -6,7 +6,6 @@ This is a simple restaurant homepage built as part of the Odin Project curriculu
 
 - Dynamically generated content using JavaScript
 - Clean and minimal design
-- Responsive layout for better user experience
 - Bundled with Webpack for modular and efficient code
 
 ## Technologies Used
